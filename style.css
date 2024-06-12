@@ -1,0 +1,74 @@
+.calculator {
+    height: 440px;
+    width:  380px;
+    /* border: 2px solid black; */
+        box-shadow: 2px 2px 20px rgb(114, 114, 114);
+
+    padding: 6px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(217, 100%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
+}
+
+#textarea {
+    box-sizing: border-box;
+    height: 80px;
+    width: 100%;
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+.buttons {
+    height: 360px;
+    width: 100%;
+     box-sizing: border-box;
+     /* border: 2px solid black; */
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.buttons>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* border-bottom: 1px solid black;
+    border-right: 1px solid black; */
+    box-shadow: 2px 2px 2px rgb(175, 175, 175);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.buttons>div:hover {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
