@@ -1,12 +1,14 @@
 .calculator {
-    height: 440px;
-    width:  380px;
+    max-height: 440px;
+    max-width:  380px;
     /* border: 2px solid black; */
         box-shadow: 2px 2px 20px rgb(114, 114, 114);
 
     padding: 6px;
     border-radius: 10px;
     background-color: white;
+    margin: 10px;
+    overflow: hidden;
 }
 
 body {
