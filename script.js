@@ -3,8 +3,6 @@ const equal = document.getElementById('=');
 const numop = document.querySelectorAll('.numop')
 const textarea = document.getElementById('textarea')
 
-
-
 numop.forEach(element => {
     element.addEventListener("click", () => {
         console.log(element.innerHTML + " was clicked");
